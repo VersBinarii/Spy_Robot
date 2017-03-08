@@ -1,0 +1,354 @@
+[HIMDBVersion]
+2.0
+[DATABASE_VERSION]
+"2.8" 
+[PROJECT_DETAILS]
+"CameraTest" "D:\ENGINEERING\HEW Projects\Camera\CameraTest" "D:\ENGINEERING\HEW Projects\Camera\CameraTest\CameraTest.hwp" "M16C" "Renesas M16C Standard" "Application" "M16C/60" "M16C/62" 
+[INFORMATION]
+"No project information available" 
+[TOOL_CHAIN]
+"Renesas M16C Standard Toolchain" "5.45.01" 
+[CONFIGURATIONS]
+"Debug" "D:\ENGINEERING\HEW Projects\Camera\CameraTest\Debug" 
+"Debug_M16C_E8a_SYSTEM" "D:\ENGINEERING\HEW Projects\Camera\CameraTest\Debug_M16C_E8a_SYSTEM" 
+"Debug_M16C_R8C_Simulator" "D:\ENGINEERING\HEW Projects\Camera\CameraTest\Debug_M16C_R8C_Simulator" 
+"Release" "D:\ENGINEERING\HEW Projects\Camera\CameraTest\Release" 
+[BUILD_PHASES]
+"Renesas M16C Assembler" 1 
+"Renesas M16C C Compiler" 1 
+"Renesas M16C Configurator" 1 
+"Renesas M16C ConfiguratorR8C" 1 
+"Renesas M16C Librarian" 1 
+"Renesas M16C Linker" 1 
+"Renesas M16C Stype Converter" 1 
+[TOOL_ENVIRONMENT]
+[EXTENSIONS]
+"Absolute file" "X30" 
+"Absolute list file" "ALS" 
+"Assembler error tag file" "ATG" 
+"Assembly include file" "INC" 
+"Assembly list file" "LST" 
+"Assembly source file" "A30" 
+"Branch Information file" "JIN" 
+"C header file" "H" 
+"C source file" "C" 
+"Configuration file" "CFG" 
+"Cross reference file" "XRF" 
+"Hex file" "HEX" 
+"ID file" "ID" 
+"Library file" "LIB" 
+"Library list file" "LLS" 
+"Linkage error tag file" "LTG" 
+"Linkage map file" "MAP" 
+"Preprocessed C source file" "I" 
+"Relocatable file" "R30" 
+"S-Record file" "MOT" 
+"Systemcall file" "MRC" 
+[FILE_GROUPS]
+"Absolute file" "BIN" "NONE" "" 
+"Absolute list file" "TEXT" "EDITOR" "" 
+"Assembler error tag file" "TEXT" "EDITOR" "" 
+"Assembly include file" "TEXT" "EDITOR" "" 
+"Assembly list file" "TEXT" "EDITOR" "" 
+"Assembly source file" "TEXT" "EDITOR" "" 
+"Branch Information file" "TEXT" "EDITOR" "" 
+"C header file" "TEXT" "EDITOR" "" 
+"C source file" "TEXT" "EDITOR" "" 
+"Configuration file" "TEXT" "EDITOR" "" 
+"Cross reference file" "TEXT" "EDITOR" "" 
+"Hex file" "TEXT" "EDITOR" "" 
+"ID file" "TEXT" "EDITOR" "" 
+"Library file" "BIN" "NONE" "" 
+"Library list file" "TEXT" "EDITOR" "" 
+"Linkage error tag file" "TEXT" "EDITOR" "" 
+"Linkage map file" "TEXT" "EDITOR" "" 
+"Preprocessed C source file" "TEXT" "EDITOR" "" 
+"Relocatable file" "BIN" "NONE" "" 
+"S-Record file" "TEXT" "EDITOR" "" 
+"Systemcall file" "TEXT" "EDITOR" "" 
+[ASSOCIATED_APPLICATIONS]
+[TOOLCHAIN_PHASE]
+"Renesas M16C Assembler" 
+"Renesas M16C C Compiler" 
+"Renesas M16C Configurator" 
+"Renesas M16C ConfiguratorR8C" 
+"Renesas M16C Librarian" 
+"Renesas M16C Linker" 
+"Renesas M16C Stype Converter" 
+[UTILITY_PHASE]
+[CUSTOM_PHASES]
+[CUSTOM_PHASE_INPUT_GROUP]
+[CUSTOM_PHASE_OUTPUT_SYNTAX]
+[BUILD_ORDER]
+"Renesas M16C C Compiler" 1 
+"Renesas M16C Assembler" 1 
+"Renesas M16C Linker" 1 
+"Renesas M16C Stype Converter" 1 
+"Renesas M16C Librarian" 0 
+"Renesas M16C ConfiguratorR8C" 0 
+"Renesas M16C Configurator" 0 
+[BUILD_PHASE_DETAILS]
+"Renesas M16C Assembler" "Assembly source file" 1 
+"Renesas M16C C Compiler" "C source file" 1 
+"Renesas M16C Configurator" "Configuration file" 0 
+"Renesas M16C ConfiguratorR8C" "Configuration file" 0 
+"Renesas M16C Librarian" "Relocatable file" 0 
+"Renesas M16C Linker" "Relocatable file" 0 
+"Renesas M16C Stype Converter" "Absolute file" 0 
+[BUILD_FILE_ORDER_Assembly source file]
+"Renesas M16C Assembler" 1 
+[BUILD_FILE_ORDER_C source file]
+"Renesas M16C C Compiler" 1 
+[SCRAP]
+"Project Generator Setup File" "" 
+[MAPPINGS]
+"Absolute file" "Renesas M16C Stype Converter" "Renesas M16C Linker" 
+"Assembly source file" "Renesas M16C Assembler" "Renesas M16C C Compiler" 
+"Relocatable file" "Renesas M16C Librarian" "Renesas M16C Assembler" 
+"Relocatable file" "Renesas M16C Librarian" "Renesas M16C C Compiler" 
+"Relocatable file" "Renesas M16C Linker" "Renesas M16C Assembler" 
+"Relocatable file" "Renesas M16C Linker" "Renesas M16C C Compiler" 
+[PROJECT_FILES]
+"D:\ENGINEERING\HEW Projects\Camera\CameraTest\adc.c" "User" "C source file" 2 
+"D:\ENGINEERING\HEW Projects\Camera\CameraTest\adc.h" "User" "C header file" 2 
+"D:\ENGINEERING\HEW Projects\Camera\CameraTest\h-ware.c" "User" "C source file" 2 
+"D:\ENGINEERING\HEW Projects\Camera\CameraTest\h-ware.h" "User" "C header file" 2 
+"D:\ENGINEERING\HEW Projects\Camera\CameraTest\iic.c" "User" "C source file" 2 
+"D:\ENGINEERING\HEW Projects\Camera\CameraTest\iic.h" "User" "C header file" 2 
+"D:\ENGINEERING\HEW Projects\Camera\CameraTest\inc.h" "User" "C header file" 2 
+"D:\ENGINEERING\HEW Projects\Camera\CameraTest\main.c" "User" "C source file" 2 
+"D:\ENGINEERING\HEW Projects\Camera\CameraTest\ncrt0.a30" "User" "Assembly source file" 2 
+"D:\ENGINEERING\HEW Projects\Camera\CameraTest\rskm16c62pdef.h" "User" "C header file" 2 
+"D:\ENGINEERING\HEW Projects\Camera\CameraTest\serial.c" "User" "C source file" 2 
+"D:\ENGINEERING\HEW Projects\Camera\CameraTest\serial.h" "User" "C header file" 2 
+"D:\ENGINEERING\HEW Projects\Camera\CameraTest\sfr62p.h" "User" "C header file" 2 
+"D:\ENGINEERING\HEW Projects\Camera\CameraTest\timer.c" "User" "C source file" 2 
+"D:\ENGINEERING\HEW Projects\Camera\CameraTest\timer.h" "User" "C header file" 2 
+[FOLDER]
+"Assembly source file" "Assembly source file" 
+"C header file" "C header file" 
+"C source file" "C source file" 
+[GENERAL_DATA_PROJECT]
+"FDT_AutoConnect" "0" 
+"FDT_BaseDevice" "" 
+"FDT_BaudRate" "" 
+"FDT_BlockLockConnect" "1" 
+"FDT_BlockLockDisconnect" "1" 
+"FDT_BootMode" "FALSE" 
+"FDT_CKM" "0" 
+"FDT_CKP" "0" 
+"FDT_ClockMode" "0" 
+"FDT_ClockSync" "00000000" 
+"FDT_Comments" "" 
+"FDT_ConnectionResetSuppression" "FFFFFFFF" 
+"FDT_Device" "" 
+"FDT_DoReadbackVerification" "" 
+"FDT_DoSecurityProtection" "" 
+"FDT_DoSecurityProtectionLevel" "" 
+"FDT_Frequency" "0.0000" 
+"FDT_Interface" "" 
+"FDT_InternalClock" "FALSE" 
+"FDT_KernelPath" "" 
+"FDT_KernelResident" "FALSE" 
+"FDT_McuId" "0" 
+"FDT_MessageLevel" "0" 
+"FDT_PinOutputs" "00000000" 
+"FDT_PinSettings" "00000000" 
+"FDT_Port" "" 
+"FDT_Protection" "0" 
+"FDT_Protocol" "" 
+"FDT_ReinterrogateGenericDevice" "" 
+"FDT_ResetOnDisconnect" "" 
+"FDT_ResetPinOutputs" "00000000" 
+"FDT_ResetPinSettings" "00000000" 
+"FDT_SerNumConfigString" "" 
+"FDT_SerNumDllFunction" "" 
+"FDT_SerNumDllLocation" "" 
+"FDT_SerNumEnabled" "FALSE" 
+"FDT_SerNumMemArea" "" 
+"FDT_UPMPinSettings" "00000000" 
+"FDT_UseDefaultBaudRate" "FALSE" 
+"FDT_UseInternalKernel" "TRUE" 
+"FDT_UserPinOutputs" "00000000" 
+"FDT_UserPinSettings" "00000000" 
+"USE_CUSTOM_LINKAGE_ORDER" "1" 
+[ON_DEMAND_COMPONENTS_LOADED]
+[SYNC_SESSION_NAMES]
+[SESSIONS]
+"DefaultSession" "D:\ENGINEERING\HEW Projects\Camera\CameraTest\DefaultSession.hsf" 0 
+"SessionM16C_E8a_SYSTEM" "D:\ENGINEERING\HEW Projects\Camera\CameraTest\SessionM16C_E8a_SYSTEM.hsf" 0 
+"SessionM16C_R8C_Simulator" "D:\ENGINEERING\HEW Projects\Camera\CameraTest\SessionM16C_R8C_Simulator.hsf" 0 
+[GENERAL_DATA_SESSION_DefaultSession]
+[GENERAL_DATA_SESSION_SessionM16C_E8a_SYSTEM]
+[GENERAL_DATA_SESSION_SessionM16C_R8C_Simulator]
+[OPTIONS_Debug_Renesas M16C Assembler]
+"Assembly source file" "059a28f292d6bc10" 2 
+"D:\ENGINEERING\HEW Projects\Camera\CameraTest\ncrt0.a30" "059a28f292d6bc10" 2 
+[OPTIONS_Debug_Renesas M16C C Compiler]
+"C source file" "059a28f292d6bc10" 1 
+"D:\ENGINEERING\HEW Projects\Camera\CameraTest\adc.c" "0cfa7c763d50cc10" 1 
+"D:\ENGINEERING\HEW Projects\Camera\CameraTest\h-ware.c" "0f01d13920a7bc10" 1 
+"D:\ENGINEERING\HEW Projects\Camera\CameraTest\iic.c" "09e0fc570b49bc10" 1 
+"D:\ENGINEERING\HEW Projects\Camera\CameraTest\main.c" "033962e1a819bc10" 1 
+"D:\ENGINEERING\HEW Projects\Camera\CameraTest\serial.c" "0cb275002949bc10" 1 
+"D:\ENGINEERING\HEW Projects\Camera\CameraTest\timer.c" "010172213d50cc10" 1 
+[OPTIONS_Debug_Renesas M16C Configurator]
+"Single Shot" "0cfa7c763d50cc10" 6 
+[OPTIONS_Debug_Renesas M16C ConfiguratorR8C]
+"Single Shot" "0cfa7c763d50cc10" 6 
+[OPTIONS_Debug_Renesas M16C Librarian]
+"Single Shot" "0cfa7c763d50cc10" 5 
+[OPTIONS_Debug_Renesas M16C Linker]
+"Single Shot" "06639c763d50cc10" 3 
+[OPTIONS_Debug_Renesas M16C Stype Converter]
+"Single Shot" "06639c763d50cc10" 4 
+[OPTIONS_Debug]
+"" 0 
+"[V|VERSION|1] [B|COMMAND|1] [S|SPEC|UITRON4] " 6 
+"[V|VERSION|1] [B|DATALENGTH|1] [S|OUTPUT|^"$(CONFIGDIR)\$(PROJECTNAME).mot^"] " 4 
+"[V|VERSION|1] [S|LIST|LM] [B|INSPECTOR|1] [S|OUTPUTPATH|^"$(CONFIGDIR)\$(FILELEAF).r30^"] " 2 
+"[V|VERSION|1] [S|MODE|CREATE|] [S|OUTPUT|^"$(CONFIGDIR)\$(PROJECTNAME).lib^"] " 5 
+"[V|VERSION|1] [S|OUTPUT|OBJECTCODE] [S|OUTPUTPATH|^"$(CONFIGDIR)\$(FILELEAF).r30^"] [B|INSPECTOR|1] " 1 
+"[V|VERSION|2] [B|STARTUPLINK|1] [B|DEBUG|1] [B|MAP-S|1] [S|OUTPUT|^"$(CONFIGDIR)\$(PROJECTNAME).x30^"] [S|INPUTLIBRARY|^"L=nc30lib^"] " 3 
+[EXCLUDED_FILES_Debug]
+[LINKAGE_ORDER_Debug]
+"D:\ENGINEERING\HEW Projects\Camera\CameraTest\Debug\ncrt0.r30" 
+[GENERAL_DATA_CONFIGURATION_Debug]
+[OPTIONS_Debug_M16C_E8a_SYSTEM_Renesas M16C Assembler]
+"Assembly source file" "059a28f292d6bc10" 2 
+"D:\ENGINEERING\HEW Projects\Camera\CameraTest\ncrt0.a30" "059a28f292d6bc10" 2 
+[OPTIONS_Debug_M16C_E8a_SYSTEM_Renesas M16C C Compiler]
+"C source file" "059a28f292d6bc10" 1 
+"D:\ENGINEERING\HEW Projects\Camera\CameraTest\adc.c" "0cfa7c763d50cc10" 1 
+"D:\ENGINEERING\HEW Projects\Camera\CameraTest\h-ware.c" "0f01d13920a7bc10" 1 
+"D:\ENGINEERING\HEW Projects\Camera\CameraTest\iic.c" "09e0fc570b49bc10" 1 
+"D:\ENGINEERING\HEW Projects\Camera\CameraTest\main.c" "033962e1a819bc10" 1 
+"D:\ENGINEERING\HEW Projects\Camera\CameraTest\serial.c" "0cb275002949bc10" 1 
+"D:\ENGINEERING\HEW Projects\Camera\CameraTest\timer.c" "010172213d50cc10" 1 
+[OPTIONS_Debug_M16C_E8a_SYSTEM_Renesas M16C Configurator]
+"Single Shot" "0cfa7c763d50cc10" 6 
+[OPTIONS_Debug_M16C_E8a_SYSTEM_Renesas M16C ConfiguratorR8C]
+"Single Shot" "0cfa7c763d50cc10" 6 
+[OPTIONS_Debug_M16C_E8a_SYSTEM_Renesas M16C Librarian]
+"Single Shot" "0cfa7c763d50cc10" 5 
+[OPTIONS_Debug_M16C_E8a_SYSTEM_Renesas M16C Linker]
+"Single Shot" "06639c763d50cc10" 3 
+[OPTIONS_Debug_M16C_E8a_SYSTEM_Renesas M16C Stype Converter]
+"Single Shot" "06639c763d50cc10" 4 
+[OPTIONS_Debug_M16C_E8a_SYSTEM]
+"" 0 
+"[V|VERSION|1] [B|COMMAND|1] [S|SPEC|UITRON4] " 6 
+"[V|VERSION|1] [B|DATALENGTH|1] [S|OUTPUT|^"$(CONFIGDIR)\$(PROJECTNAME).mot^"] " 4 
+"[V|VERSION|1] [S|LIST|L|M] [B|INSPECTOR|1] [S|OUTPUTPATH|^"$(CONFIGDIR)\$(FILELEAF).r30^"] " 2 
+"[V|VERSION|1] [S|MODE|CREATE|] [S|OUTPUT|^"$(CONFIGDIR)\$(PROJECTNAME).lib^"] " 5 
+"[V|VERSION|1] [S|OUTPUT|OBJECTCODE] [S|OUTPUTPATH|^"$(CONFIGDIR)\$(FILELEAF).r30^"] [B|INSPECTOR|1] " 1 
+"[V|VERSION|2] [B|STARTUPLINK|1] [B|DEBUG|1] [B|MAP-S|1] [S|OUTPUT|^"$(CONFIGDIR)\$(PROJECTNAME).x30^"] [S|INPUTLIBRARY|^"L=nc30lib^"] " 3 
+[EXCLUDED_FILES_Debug_M16C_E8a_SYSTEM]
+[LINKAGE_ORDER_Debug_M16C_E8a_SYSTEM]
+"D:\ENGINEERING\HEW Projects\Camera\CameraTest\Debug_M16C_E8a_SYSTEM\ncrt0.r30" 
+[GENERAL_DATA_CONFIGURATION_Debug_M16C_E8a_SYSTEM]
+[OPTIONS_Debug_M16C_R8C_Simulator_Renesas M16C Assembler]
+"Assembly source file" "059a28f292d6bc10" 2 
+"D:\ENGINEERING\HEW Projects\Camera\CameraTest\ncrt0.a30" "059a28f292d6bc10" 2 
+[OPTIONS_Debug_M16C_R8C_Simulator_Renesas M16C C Compiler]
+"C source file" "059a28f292d6bc10" 1 
+"D:\ENGINEERING\HEW Projects\Camera\CameraTest\adc.c" "0cfa7c763d50cc10" 1 
+"D:\ENGINEERING\HEW Projects\Camera\CameraTest\h-ware.c" "0f01d13920a7bc10" 1 
+"D:\ENGINEERING\HEW Projects\Camera\CameraTest\iic.c" "09e0fc570b49bc10" 1 
+"D:\ENGINEERING\HEW Projects\Camera\CameraTest\main.c" "033962e1a819bc10" 1 
+"D:\ENGINEERING\HEW Projects\Camera\CameraTest\serial.c" "0cb275002949bc10" 1 
+"D:\ENGINEERING\HEW Projects\Camera\CameraTest\timer.c" "010172213d50cc10" 1 
+[OPTIONS_Debug_M16C_R8C_Simulator_Renesas M16C Configurator]
+"Single Shot" "0cfa7c763d50cc10" 6 
+[OPTIONS_Debug_M16C_R8C_Simulator_Renesas M16C ConfiguratorR8C]
+"Single Shot" "0cfa7c763d50cc10" 6 
+[OPTIONS_Debug_M16C_R8C_Simulator_Renesas M16C Librarian]
+"Single Shot" "0cfa7c763d50cc10" 5 
+[OPTIONS_Debug_M16C_R8C_Simulator_Renesas M16C Linker]
+"Single Shot" "06639c763d50cc10" 3 
+[OPTIONS_Debug_M16C_R8C_Simulator_Renesas M16C Stype Converter]
+"Single Shot" "06639c763d50cc10" 4 
+[OPTIONS_Debug_M16C_R8C_Simulator]
+"" 0 
+"[V|VERSION|1] [B|COMMAND|1] [S|SPEC|UITRON4] " 6 
+"[V|VERSION|1] [B|DATALENGTH|1] [S|OUTPUT|^"$(CONFIGDIR)\$(PROJECTNAME).mot^"] " 4 
+"[V|VERSION|1] [S|LIST|L|M] [B|INSPECTOR|1] [S|OUTPUTPATH|^"$(CONFIGDIR)\$(FILELEAF).r30^"] " 2 
+"[V|VERSION|1] [S|MODE|CREATE|] [S|OUTPUT|^"$(CONFIGDIR)\$(PROJECTNAME).lib^"] " 5 
+"[V|VERSION|1] [S|OUTPUT|OBJECTCODE] [S|OUTPUTPATH|^"$(CONFIGDIR)\$(FILELEAF).r30^"] [B|INSPECTOR|1] " 1 
+"[V|VERSION|2] [B|STARTUPLINK|1] [B|DEBUG|1] [B|MAP-S|1] [S|OUTPUT|^"$(CONFIGDIR)\$(PROJECTNAME).x30^"] [S|INPUTLIBRARY|^"L=nc30lib^"] " 3 
+[EXCLUDED_FILES_Debug_M16C_R8C_Simulator]
+[LINKAGE_ORDER_Debug_M16C_R8C_Simulator]
+"D:\ENGINEERING\HEW Projects\Camera\CameraTest\Debug_M16C_R8C_Simulator\ncrt0.r30" 
+[GENERAL_DATA_CONFIGURATION_Debug_M16C_R8C_Simulator]
+[OPTIONS_Release_Renesas M16C Assembler]
+"Assembly source file" "059a28f292d6bc10" 2 
+"D:\ENGINEERING\HEW Projects\Camera\CameraTest\ncrt0.a30" "059a28f292d6bc10" 2 
+[OPTIONS_Release_Renesas M16C C Compiler]
+"C source file" "059a28f292d6bc10" 1 
+"D:\ENGINEERING\HEW Projects\Camera\CameraTest\adc.c" "0cfa7c763d50cc10" 1 
+"D:\ENGINEERING\HEW Projects\Camera\CameraTest\h-ware.c" "0f01d13920a7bc10" 1 
+"D:\ENGINEERING\HEW Projects\Camera\CameraTest\iic.c" "09e0fc570b49bc10" 1 
+"D:\ENGINEERING\HEW Projects\Camera\CameraTest\main.c" "033962e1a819bc10" 1 
+"D:\ENGINEERING\HEW Projects\Camera\CameraTest\serial.c" "0cb275002949bc10" 1 
+"D:\ENGINEERING\HEW Projects\Camera\CameraTest\timer.c" "010172213d50cc10" 1 
+[OPTIONS_Release_Renesas M16C Configurator]
+"Single Shot" "0cfa7c763d50cc10" 6 
+[OPTIONS_Release_Renesas M16C ConfiguratorR8C]
+"Single Shot" "0cfa7c763d50cc10" 6 
+[OPTIONS_Release_Renesas M16C Librarian]
+"Single Shot" "0cfa7c763d50cc10" 5 
+[OPTIONS_Release_Renesas M16C Linker]
+"Single Shot" "06639c763d50cc10" 3 
+[OPTIONS_Release_Renesas M16C Stype Converter]
+"Single Shot" "06639c763d50cc10" 4 
+[OPTIONS_Release]
+"" 0 
+"[V|VERSION|1] [B|COMMAND|1] [S|SPEC|UITRON4] " 6 
+"[V|VERSION|1] [B|DATALENGTH|1] [S|OUTPUT|^"$(CONFIGDIR)\$(PROJECTNAME).mot^"] " 4 
+"[V|VERSION|1] [S|LIST|L|M] [B|INSPECTOR|1] [S|OUTPUTPATH|^"$(CONFIGDIR)\$(FILELEAF).r30^"] " 2 
+"[V|VERSION|1] [S|MODE|CREATE|] [S|OUTPUT|^"$(CONFIGDIR)\$(PROJECTNAME).lib^"] " 5 
+"[V|VERSION|1] [S|OUTPUT|OBJECTCODE] [S|OUTPUTPATH|^"$(CONFIGDIR)\$(FILELEAF).r30^"] [B|INSPECTOR|1] " 1 
+"[V|VERSION|2] [B|STARTUPLINK|1] [B|DEBUG|1] [B|MAP-S|1] [S|OUTPUT|^"$(CONFIGDIR)\$(PROJECTNAME).x30^"] [S|INPUTLIBRARY|^"L=nc30lib^"] " 3 
+[EXCLUDED_FILES_Release]
+[LINKAGE_ORDER_Release]
+"D:\ENGINEERING\HEW Projects\Camera\CameraTest\Release\ncrt0.r30" 
+[GENERAL_DATA_CONFIGURATION_Release]
+[GENERAL_DATA_CONFIGURATION_SESSION_Debug_DefaultSession]
+[SESSION_DATA_CONFIGURATION_SESSION_Debug_DefaultSession]
+"MEMORY_MAPPING_OPTIONS" "" 
+[GENERAL_DATA_CONFIGURATION_SESSION_Debug_SessionM16C_E8a_SYSTEM]
+[SESSION_DATA_CONFIGURATION_SESSION_Debug_SessionM16C_E8a_SYSTEM]
+"MEMORY_MAPPING_OPTIONS" "[V|VERSION|1] [S|CPUTYPE|^"62 (M16C/60)^"] [S|ROM_SIZE|^"128K^"]" 
+[GENERAL_DATA_CONFIGURATION_SESSION_Debug_SessionM16C_R8C_Simulator]
+[SESSION_DATA_CONFIGURATION_SESSION_Debug_SessionM16C_R8C_Simulator]
+"MEMORY_MAPPING_OPTIONS" "Unknown Options" 
+[GENERAL_DATA_CONFIGURATION_SESSION_Debug_M16C_E8a_SYSTEM_DefaultSession]
+[SESSION_DATA_CONFIGURATION_SESSION_Debug_M16C_E8a_SYSTEM_DefaultSession]
+"MEMORY_MAPPING_OPTIONS" "" 
+[GENERAL_DATA_CONFIGURATION_SESSION_Debug_M16C_E8a_SYSTEM_SessionM16C_E8a_SYSTEM]
+[SESSION_DATA_CONFIGURATION_SESSION_Debug_M16C_E8a_SYSTEM_SessionM16C_E8a_SYSTEM]
+"MEMORY_MAPPING_OPTIONS" "[V|VERSION|1] [S|CPUTYPE|^"62 (M16C/60)^"] [S|ROM_SIZE|^"128K^"]" 
+[GENERAL_DATA_CONFIGURATION_SESSION_Debug_M16C_E8a_SYSTEM_SessionM16C_R8C_Simulator]
+[SESSION_DATA_CONFIGURATION_SESSION_Debug_M16C_E8a_SYSTEM_SessionM16C_R8C_Simulator]
+"MEMORY_MAPPING_OPTIONS" "Unknown Options" 
+[GENERAL_DATA_CONFIGURATION_SESSION_Debug_M16C_R8C_Simulator_DefaultSession]
+[SESSION_DATA_CONFIGURATION_SESSION_Debug_M16C_R8C_Simulator_DefaultSession]
+"MEMORY_MAPPING_OPTIONS" "" 
+[GENERAL_DATA_CONFIGURATION_SESSION_Debug_M16C_R8C_Simulator_SessionM16C_E8a_SYSTEM]
+[SESSION_DATA_CONFIGURATION_SESSION_Debug_M16C_R8C_Simulator_SessionM16C_E8a_SYSTEM]
+"MEMORY_MAPPING_OPTIONS" "[V|VERSION|1] [S|CPUTYPE|^"62 (M16C/60)^"] [S|ROM_SIZE|^"128K^"]" 
+[GENERAL_DATA_CONFIGURATION_SESSION_Debug_M16C_R8C_Simulator_SessionM16C_R8C_Simulator]
+[SESSION_DATA_CONFIGURATION_SESSION_Debug_M16C_R8C_Simulator_SessionM16C_R8C_Simulator]
+"MEMORY_MAPPING_OPTIONS" "Unknown Options" 
+[GENERAL_DATA_CONFIGURATION_SESSION_Release_DefaultSession]
+[SESSION_DATA_CONFIGURATION_SESSION_Release_DefaultSession]
+"MEMORY_MAPPING_OPTIONS" "" 
+[GENERAL_DATA_CONFIGURATION_SESSION_Release_SessionM16C_E8a_SYSTEM]
+[SESSION_DATA_CONFIGURATION_SESSION_Release_SessionM16C_E8a_SYSTEM]
+"MEMORY_MAPPING_OPTIONS" "[V|VERSION|1] [S|CPUTYPE|^"62 (M16C/60)^"] [S|ROM_SIZE|^"128K^"]" 
+[GENERAL_DATA_CONFIGURATION_SESSION_Release_SessionM16C_R8C_Simulator]
+[SESSION_DATA_CONFIGURATION_SESSION_Release_SessionM16C_R8C_Simulator]
+"MEMORY_MAPPING_OPTIONS" "Unknown Options" 
+[EXT_DEBUGGER_INFO]
+0 "" "" "" "" 
+[END]

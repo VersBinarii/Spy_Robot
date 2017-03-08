@@ -1,0 +1,401 @@
+##########################################
+# (1) LINK INFORMATION                   #
+##########################################
+c:\program files\renesas\hew\tools\renesas\nc30wa\v545r01\bin\ln30.exe @D:\ENGINEERING\HEW Projects\Camera\CameraTest\Debug_M16C_E8a_SYSTEM\CameraTest.m16cl
+
+# ID CODE DATA
+.ID  "#FFFFFFFFFFFFFF"
+
+# ROM CODE PROTECT DATA
+.PROTECT  FFH
+
+# LINK FILE INFORMATION
+ncrt0 (D:\ENGINEERING\HEW Projects\Camera\CameraTest\Debug_M16C_E8a_SYSTEM\ncrt0.r30)
+	Jun  2 09:08:27 2011
+
+adc (D:\ENGINEERING\HEW Projects\Camera\CameraTest\Debug_M16C_E8a_SYSTEM\adc.r30)
+	Jun  2 09:08:26 2011
+
+h-ware (D:\ENGINEERING\HEW Projects\Camera\CameraTest\Debug_M16C_E8a_SYSTEM\h-ware.r30)
+	Jun  2 09:08:26 2011
+
+iic (D:\ENGINEERING\HEW Projects\Camera\CameraTest\Debug_M16C_E8a_SYSTEM\iic.r30)
+	Jun  2 09:08:27 2011
+
+main (D:\ENGINEERING\HEW Projects\Camera\CameraTest\Debug_M16C_E8a_SYSTEM\main.r30)
+	Jun  2 09:08:27 2011
+
+serial (D:\ENGINEERING\HEW Projects\Camera\CameraTest\Debug_M16C_E8a_SYSTEM\serial.r30)
+	Jun  2 09:08:27 2011
+
+timer (D:\ENGINEERING\HEW Projects\Camera\CameraTest\Debug_M16C_E8a_SYSTEM\timer.r30)
+	Jun  2 09:08:27 2011
+
+mdata (c:\program files\renesas\hew\tools\renesas\nc30wa\v545r01\lib30\nc30lib.lib)
+	Jan  6 15:04:55 2010
+
+strlen (c:\program files\renesas\hew\tools\renesas\nc30wa\v545r01\lib30\nc30lib.lib)
+	Jan  6 15:05:12 2010
+
+
+##########################################
+# (2) SECTION INFORMATION                #
+##########################################
+# SECTION                        ATR TYPE    START  LENGTH ALIGN MODULENAME
+data_SE                          ABS DATA    000400 000000       ncrt0
+bss_SE                           REL DATA    000400 000000 2     ncrt0
+data_SO                          REL DATA    000400 000000       ncrt0
+bss_SO                           REL DATA    000400 000000       ncrt0
+data_NE                          REL DATA    000400 000000 2     ncrt0
+                                 REL DATA    000400 00000C 2     h-ware
+                                 REL DATA    00040C 000008 2     main
+                                 REL DATA    000414 000006 2     timer
+                                 REL DATA    00041A 000010 2     mdata
+bss_NE                           REL DATA    00042A 000000 2     ncrt0
+                                 REL DATA    00042A 000010 2     h-ware
+                                 REL DATA    00043A 000008 2     mdata
+data_NO                          REL DATA    000442 000000       ncrt0
+                                 REL DATA    000442 000002       timer
+bss_NO                           REL DATA    000444 000000       ncrt0
+                                 REL DATA    000444 000001       h-ware
+istack                           REL DATA    000446 000300 2     ncrt0
+stack                            REL DATA    000746 000300 2     ncrt0
+heap                             REL DATA    000A46 000300       ncrt0
+rom_FE                           ABS ROMDATA 0E0000 000000       ncrt0
+                                 REL ROMDATA 0E0000 000008 2     h-ware
+rom_FO                           REL ROMDATA 0E0008 000000       ncrt0
+                                 REL ROMDATA 0E0008 000036       main
+                                 REL ROMDATA 0E003E 00000A       timer
+data_SEI                         REL ROMDATA 0E0048 000000 2     ncrt0
+data_SOI                         REL ROMDATA 0E0048 000000       ncrt0
+data_NEI                         REL ROMDATA 0E0048 000000 2     ncrt0
+                                 REL ROMDATA 0E0048 00000C       h-ware
+                                 REL ROMDATA 0E0054 000008       main
+                                 REL ROMDATA 0E005C 000006       timer
+                                 REL ROMDATA 0E0062 000010       mdata
+data_NOI                         REL ROMDATA 0E0072 000000       ncrt0
+                                 REL ROMDATA 0E0072 000002       timer
+program                          REL CODE    0E0074 000000 2     ncrt0
+                                 REL CODE    0E0074 00001C 2     adc
+                                 REL CODE    0E0090 000203 2     h-ware
+                                 REL CODE    0E0294 0001D7 2     iic
+                                 REL CODE    0E046C 00033E 2     main
+                                 REL CODE    0E07AA 000191 2     serial
+                                 REL CODE    0E093C 00005D 2     timer
+                                 REL CODE    0E099A 00002B 2     strlen
+interrupt                        REL CODE    0E09C6 000000 2     ncrt0
+                                 REL CODE    0E09C6 0000A7       ncrt0
+program_S                        REL CODE    0E0A6E 000000 2     ncrt0
+vector                           ABS ROMDATA 0FFD00 000100       ncrt0
+fvector                          ABS ROMDATA 0FFFDC 000024       ncrt0
+# Total -------------------------------------------------------------------
+                                     DATA           000945(0002373) Byte(s)
+                                     ROMDATA        000198(0000408) Byte(s)
+                                     CODE           0009F8(0002552) Byte(s)
+
+##########################################
+# (3) GLOBAL LABEL INFORMATION           #
+##########################################
+$DataInFifo        0e0874  $I2C_byte_read     0e0294  $I2C_byte_write    0e02c2
+$I2C_send_data     0e02e2  $Resetfifo         0e0928  $RoomInFifo        0e08c8
+$UART0putc         0e0142  $UART2putc         0e025e  $Wait              0e0432
+$exit              0e0a6a  $getfifo           0e081c  $grabPic           0e0740
+$initUART0         0e010e  $initUART2         0e0206  $peekfifo          0e085e
+$putfifo           0e07aa  $tellJava          0e018c  _BaudRates         0e0000
+_I2C_read_data     0e031c  _I2C_send_ACK      0e0362  _I2C_start         0e03ac
+_I2C_stop          0e03d2  _Look_for_ACK      0e037e  _RxBuffer          00042a
+_RxFifo            000400  _SCL_HIGH          0e0426  _SCL_LOW           0e042c
+_SCL_OUT           0e0420  _SDA_HIGH          0e0460  _SDA_IN            0e0452
+_SDA_LOW           0e0466  _SDA_OUT           0e044c  _SDA_PIN           0e0458
+_TOGGLE_SCL        0e040a  _TimerA0_IntHand   0e0954  _TxBuffer          000432
+_TxFifo            000406  _UART0Rx_IntHand   0e01ce  _UART0puts         0e0158
+_UART2Status       000444  _UART2Tx_IntHand   0e023a  __memt             000422
+__mnext            00043a  __msize            00043e  __pool             00041a
+_battVolt          000414  _debounceBL        0e04b4  _debounceBR        0e04d8
+_debounceFL        0e046c  _debounceFR        0e0490  _debouncedState    000442
+_exit              0e0a6a  _getADC            0e0082  _index             000443
+_initADC           0e0074  _initHW            0e0090  _initI2C           0e03f0
+_initPins          0e00d2  _initTimerA0       0e093c  _main              0e04fc
+_strlen            0e099a  dummy_int          0e0a6c  start              0e09c6
+
+##########################################
+# (4) GLOBAL EQU SYMBOL INFORMATION      #
+##########################################
+__SB__           00000400  
+
+##########################################
+# (5) GLOBAL EQU BIT-SYMBOL INFORMATION  #
+##########################################
+
+##########################################
+# (6) LOCAL LABEL INFORMATION            #
+##########################################
+@ ncrt0 ( D:\ENGINEERING\HEW Projects\Camera\CameraTest\Debug_M16C_E8a_SYSTEM\ncrt0.r30 )
+@ adc ( D:\ENGINEERING\HEW Projects\Camera\CameraTest\Debug_M16C_E8a_SYSTEM\adc.r30 )
+@ h-ware ( D:\ENGINEERING\HEW Projects\Camera\CameraTest\Debug_M16C_E8a_SYSTEM\h-ware.r30 )
+@ iic ( D:\ENGINEERING\HEW Projects\Camera\CameraTest\Debug_M16C_E8a_SYSTEM\iic.r30 )
+@ main ( D:\ENGINEERING\HEW Projects\Camera\CameraTest\Debug_M16C_E8a_SYSTEM\main.r30 )
+@ serial ( D:\ENGINEERING\HEW Projects\Camera\CameraTest\Debug_M16C_E8a_SYSTEM\serial.r30 )
+@ timer ( D:\ENGINEERING\HEW Projects\Camera\CameraTest\Debug_M16C_E8a_SYSTEM\timer.r30 )
+@ mdata ( c:\program files\renesas\hew\tools\renesas\nc30wa\v545r01\lib30\nc30lib.lib )
+@ strlen ( c:\program files\renesas\hew\tools\renesas\nc30wa\v545r01\lib30\nc30lib.lib )
+
+##########################################
+# (7) LOCAL EQU SYMBOL INFORMATION       #
+##########################################
+@ ncrt0 ( D:\ENGINEERING\HEW Projects\Camera\CameraTest\Debug_M16C_E8a_SYSTEM\ncrt0.r30 )
+@ adc ( D:\ENGINEERING\HEW Projects\Camera\CameraTest\Debug_M16C_E8a_SYSTEM\adc.r30 )
+@ h-ware ( D:\ENGINEERING\HEW Projects\Camera\CameraTest\Debug_M16C_E8a_SYSTEM\h-ware.r30 )
+@ iic ( D:\ENGINEERING\HEW Projects\Camera\CameraTest\Debug_M16C_E8a_SYSTEM\iic.r30 )
+@ main ( D:\ENGINEERING\HEW Projects\Camera\CameraTest\Debug_M16C_E8a_SYSTEM\main.r30 )
+@ serial ( D:\ENGINEERING\HEW Projects\Camera\CameraTest\Debug_M16C_E8a_SYSTEM\serial.r30 )
+@ timer ( D:\ENGINEERING\HEW Projects\Camera\CameraTest\Debug_M16C_E8a_SYSTEM\timer.r30 )
+@ mdata ( c:\program files\renesas\hew\tools\renesas\nc30wa\v545r01\lib30\nc30lib.lib )
+@ strlen ( c:\program files\renesas\hew\tools\renesas\nc30wa\v545r01\lib30\nc30lib.lib )
+
+##########################################
+# (8) LOCAL EQU BIT-SYMBOL INFORMATION   #
+##########################################
+@ ncrt0 ( D:\ENGINEERING\HEW Projects\Camera\CameraTest\Debug_M16C_E8a_SYSTEM\ncrt0.r30 )
+@ adc ( D:\ENGINEERING\HEW Projects\Camera\CameraTest\Debug_M16C_E8a_SYSTEM\adc.r30 )
+@ h-ware ( D:\ENGINEERING\HEW Projects\Camera\CameraTest\Debug_M16C_E8a_SYSTEM\h-ware.r30 )
+@ iic ( D:\ENGINEERING\HEW Projects\Camera\CameraTest\Debug_M16C_E8a_SYSTEM\iic.r30 )
+@ main ( D:\ENGINEERING\HEW Projects\Camera\CameraTest\Debug_M16C_E8a_SYSTEM\main.r30 )
+@ serial ( D:\ENGINEERING\HEW Projects\Camera\CameraTest\Debug_M16C_E8a_SYSTEM\serial.r30 )
+@ timer ( D:\ENGINEERING\HEW Projects\Camera\CameraTest\Debug_M16C_E8a_SYSTEM\timer.r30 )
+@ mdata ( c:\program files\renesas\hew\tools\renesas\nc30wa\v545r01\lib30\nc30lib.lib )
+@ strlen ( c:\program files\renesas\hew\tools\renesas\nc30wa\v545r01\lib30\nc30lib.lib )
+
+*** Mapping List ***
+
+SECTION                            START      END         SIZE   ALIGN
+
+data_SE
+                                  00000400  00000400         0   1
+bss_SE
+                                  00000400  00000400         0   2
+data_SO
+                                  00000400  00000400         0   1
+bss_SO
+                                  00000400  00000400         0   1
+data_NE
+                                  00000400  00000429        2a   2
+bss_NE
+                                  0000042a  00000441        18   2
+data_NO
+                                  00000442  00000443         2   1
+bss_NO
+                                  00000444  00000444         1   1
+istack
+                                  00000446  00000745       300   2
+stack
+                                  00000746  00000a45       300   2
+heap
+                                  00000a46  00000d45       300   1
+rom_FE
+                                  000e0000  000e0007         8   1
+rom_FO
+                                  000e0008  000e0047        40   1
+data_SEI
+                                  000e0048  000e0048         0   2
+data_SOI
+                                  000e0048  000e0048         0   1
+data_NEI
+                                  000e0048  000e0071        2a   2
+data_NOI
+                                  000e0072  000e0073         2   1
+program
+                                  000e0074  000e09c4       951   2
+interrupt
+                                  000e09c6  000e0a6c        a7   2
+program_S
+                                  000e0a6e  000e0a6e         0   2
+vector
+                                  000ffd00  000ffdff       100   1
+fvector
+                                  000fffdc  000fffff        24   1
+
+*** Symbol List ***
+
+SECTION=
+FILE=                               START        END    SIZE
+  SYMBOL                            ADDR        SIZE    INFO      COUNTS  OPT
+
+SECTION=data_SE
+FILE=ncrt0
+                                  00000400  00000400         0
+  __SB__
+                                  00000400         0   none ,g         0
+
+SECTION=data_NE
+FILE=D:/ENGINEERING/HEW Projects/Camera/CameraTest/h-ware
+                                  00000400  0000040b         c
+  _RxFifo
+                                  00000400         6   data ,g         0
+  _TxFifo
+                                  00000406         6   data ,g         0
+
+FILE=D:/ENGINEERING/HEW Projects/Camera/CameraTest/timer
+                                  00000414  00000419         6
+  _battVolt
+                                  00000414         4   data ,g         0
+
+FILE=mdata
+                                  0000041a  00000429        10
+  __memt
+                                  00000422         0   none ,g         0
+  __pool
+                                  0000041a         0   none ,g         0
+
+SECTION=bss_NE
+FILE=D:/ENGINEERING/HEW Projects/Camera/CameraTest/h-ware
+                                  0000042a  00000439        10
+  _RxBuffer
+                                  0000042a         8   data ,g         0
+  _TxBuffer
+                                  00000432         8   data ,g         0
+
+FILE=mdata
+                                  0000043a  00000441         8
+  __mnext
+                                  0000043a         0   none ,g         0
+  __msize
+                                  0000043e         0   none ,g         0
+
+SECTION=data_NO
+FILE=ncrt0
+                                  00000442  00000442         0
+  _debouncedState
+                                  00000442         1   data ,g         0
+
+FILE=D:/ENGINEERING/HEW Projects/Camera/CameraTest/timer
+                                  00000442  00000443         2
+  _index
+                                  00000443         1   data ,g         0
+
+SECTION=bss_NO
+FILE=ncrt0
+                                  00000444  00000444         0
+  _UART2Status
+                                  00000444         1   data ,g         0
+
+SECTION=rom_FE
+FILE=D:/ENGINEERING/HEW Projects/Camera/CameraTest/h-ware
+                                  000e0000  000e0007         8
+  _BaudRates
+                                  000e0000         8   data ,g         0
+
+SECTION=program
+FILE=D:/ENGINEERING/HEW Projects/Camera/CameraTest/adc
+                                  000e0074  000e008f        1c
+  _initADC
+                                  000e0074         d   func ,g         0
+
+FILE=D:/ENGINEERING/HEW Projects/Camera/CameraTest/h-ware
+                                  000e0090  000e0292       203
+  _initHW
+                                  000e0090        41   func ,g         0
+  _initPins
+                                  000e00d2        3d   func ,g         0
+  $initUART0
+                                  000e010e        34   func ,g         0
+  $UART0putc
+                                  000e0142        15   func ,g         0
+  _UART0puts
+                                  000e0158        35   func ,g         0
+  $tellJava
+                                  000e018c        41   func ,g         0
+  _UART0Rx_IntHandler
+                                  000e01ce        38   func ,g         0
+  $initUART2
+                                  000e0206        35   func ,g         0
+  _UART2Tx_IntHandler
+                                  000e023a        23   func ,g         0
+
+FILE=D:/ENGINEERING/HEW Projects/Camera/CameraTest/iic
+                                  000e0294  000e046a       1d7
+  $I2C_byte_read
+                                  000e0294        2d   func ,g         0
+  $I2C_byte_write
+                                  000e02c2        21   func ,g         0
+  $I2C_send_data
+                                  000e02e2        3a   func ,g         0
+  _I2C_read_data
+                                  000e031c        45   func ,g         0
+  _I2C_send_ACK
+                                  000e0362        1c   func ,g         0
+  _Look_for_ACK
+                                  000e037e        2e   func ,g         0
+  _I2C_start
+                                  000e03ac        26   func ,g         0
+  _I2C_stop
+                                  000e03d2        1f   func ,g         0
+  _initI2C
+                                  000e03f0        19   func ,g         0
+  _TOGGLE_SCL
+                                  000e040a        16   func ,g         0
+  _SCL_OUT
+                                  000e0420         6   func ,g         0
+  _SCL_HIGH
+                                  000e0426         6   func ,g         0
+  _SCL_LOW
+                                  000e042c         6   func ,g         0
+  $Wait
+                                  000e0432        1a   func ,g         0
+  _SDA_OUT
+                                  000e044c         6   func ,g         0
+  _SDA_IN
+                                  000e0452         6   func ,g         0
+  _SDA_PIN
+                                  000e0458         9   func ,g         0
+  _SDA_HIGH
+                                  000e0460         5   func ,g         0
+
+FILE=D:/ENGINEERING/HEW Projects/Camera/CameraTest/main
+                                  000e046c  000e07a9       33e
+  _debounceFL
+                                  000e046c        24   func ,g         0
+  _debounceFR
+                                  000e0490        24   func ,g         0
+  _debounceBL
+                                  000e04b4        24   func ,g         0
+  _debounceBR
+                                  000e04d8        24   func ,g         0
+  _main
+                                  000e04fc       243   func ,g         0
+
+FILE=D:/ENGINEERING/HEW Projects/Camera/CameraTest/serial
+                                  000e07aa  000e093a       191
+  $putfifo
+                                  000e07aa        72   func ,g         0
+  $getfifo
+                                  000e081c        41   func ,g         0
+  $peekfifo
+                                  000e085e        17   func ,g         0
+  $DataInFifo
+                                  000e0874        54   func ,g         0
+  $RoomInFifo
+                                  000e08c8        60   func ,g         0
+  $Resetfifo
+                                  000e0928        13   func ,g         0
+
+FILE=D:/ENGINEERING/HEW Projects/Camera/CameraTest/timer
+                                  000e093c  000e0998        5d
+  _initTimerA0
+                                  000e093c        17   func ,g         0
+
+FILE=strlen
+                                  000e099a  000e09c4        2b
+  _strlen
+                                  000e099a        2b   func ,g         0
+
+SECTION=interrupt
+FILE=ncrt0
+                                  000e09c6  000e0a6c        a7
+  $exit
+                                  000e0a6a         0   none ,g         0
+  _exit
+                                  000e0a6a         0   none ,g         0
+  dummy_int
+                                  000e0a6c         0   none ,g         0
+

@@ -1,0 +1,310 @@
+##########################################
+# (1) LINK INFORMATION                   #
+##########################################
+c:\program files\renesas\hew\tools\renesas\nc30wa\v545r01\bin\ln30.exe @D:\ENGINEERING\HEW Projects\Camera\CameraTest\Debug_M16C_R8C_Simulator\CameraTest.m16cl
+
+# ID CODE DATA
+.ID  "#FFFFFFFFFFFFFF"
+
+# ROM CODE PROTECT DATA
+.PROTECT  FFH
+
+# LINK FILE INFORMATION
+ncrt0 (D:\ENGINEERING\HEW Projects\Camera\CameraTest\Debug_M16C_R8C_Simulator\ncrt0.r30)
+	Dec  7 23:19:23 2010
+
+h-ware (D:\ENGINEERING\HEW Projects\Camera\CameraTest\Debug_M16C_R8C_Simulator\h-ware.r30)
+	Dec  7 23:19:23 2010
+
+iic (D:\ENGINEERING\HEW Projects\Camera\CameraTest\Debug_M16C_R8C_Simulator\iic.r30)
+	Dec  7 23:19:23 2010
+
+main (D:\ENGINEERING\HEW Projects\Camera\CameraTest\Debug_M16C_R8C_Simulator\main.r30)
+	Dec  7 23:19:23 2010
+
+serial (D:\ENGINEERING\HEW Projects\Camera\CameraTest\Debug_M16C_R8C_Simulator\serial.r30)
+	Dec  7 23:19:23 2010
+
+mdata (c:\program files\renesas\hew\tools\renesas\nc30wa\v545r01\lib30\nc30lib.lib)
+	Jan  6 15:04:55 2010
+
+strlen (c:\program files\renesas\hew\tools\renesas\nc30wa\v545r01\lib30\nc30lib.lib)
+	Jan  6 15:05:12 2010
+
+
+##########################################
+# (2) SECTION INFORMATION                #
+##########################################
+# SECTION                        ATR TYPE    START  LENGTH ALIGN MODULENAME
+data_SE                          ABS DATA    000400 000000       ncrt0
+bss_SE                           REL DATA    000400 000000 2     ncrt0
+data_SO                          REL DATA    000400 000000       ncrt0
+bss_SO                           REL DATA    000400 000000       ncrt0
+data_NE                          REL DATA    000400 000000 2     ncrt0
+                                 REL DATA    000400 000006 2     h-ware
+                                 REL DATA    000406 000010 2     mdata
+bss_NE                           REL DATA    000416 000000 2     ncrt0
+                                 REL DATA    000416 000008 2     h-ware
+                                 REL DATA    00041E 000008 2     mdata
+data_NO                          REL DATA    000426 000000       ncrt0
+bss_NO                           REL DATA    000426 000000       ncrt0
+                                 REL DATA    000426 000001       iic
+                                 REL DATA    000427 000001       main
+istack                           REL DATA    000428 000300 2     ncrt0
+stack                            REL DATA    000728 000300 2     ncrt0
+heap                             REL DATA    000A28 000300       ncrt0
+rom_FE                           ABS ROMDATA 0E0000 000000       ncrt0
+                                 REL ROMDATA 0E0000 000008 2     h-ware
+rom_FO                           REL ROMDATA 0E0008 000000       ncrt0
+                                 REL ROMDATA 0E0008 000005       main
+data_SEI                         REL ROMDATA 0E000E 000000 2     ncrt0
+data_SOI                         REL ROMDATA 0E000E 000000       ncrt0
+data_NEI                         REL ROMDATA 0E000E 000000 2     ncrt0
+                                 REL ROMDATA 0E000E 000006       h-ware
+                                 REL ROMDATA 0E0014 000010       mdata
+data_NOI                         REL ROMDATA 0E0024 000000       ncrt0
+program                          REL CODE    0E0024 000000 2     ncrt0
+                                 REL CODE    0E0024 000106 2     h-ware
+                                 REL CODE    0E012A 0001F6 2     iic
+                                 REL CODE    0E0320 0000DF 2     main
+                                 REL CODE    0E0400 00017E 2     serial
+                                 REL CODE    0E057E 00002B 2     strlen
+interrupt                        REL CODE    0E05AA 000000 2     ncrt0
+                                 REL CODE    0E05AA 0000A7       ncrt0
+program_S                        REL CODE    0E0652 000000 2     ncrt0
+vector                           ABS ROMDATA 0FFD00 000000       ncrt0
+fvector                          ABS ROMDATA 0FFFDC 000024       ncrt0
+# Total -------------------------------------------------------------------
+                                     DATA           000928(0002344) Byte(s)
+                                     ROMDATA        000047(0000071) Byte(s)
+                                     CODE           00062C(0001580) Byte(s)
+
+##########################################
+# (3) GLOBAL LABEL INFORMATION           #
+##########################################
+$DataInFifo        0e04ca  $I2C_byte_read     0e0140  $I2C_byte_write    0e019c
+$I2C_send_data     0e01f0  $RoomInFifo        0e051e  $UART2putc         0e00b2
+$UART2puts         0e00c8  $exit              0e064e  $getfifo           0e0472
+$initUART2         0e007a  $peekfifo          0e04b4  $putfifo           0e0400
+_BaudRates         0e0000  _I2C_enable_rx     0e012a  _I2C_restart       0e0274
+_I2C_start         0e022c  _I2C_stop          0e02bc  _RxBuffer          000416
+_UART2Rx_IntHand   0e00f6  __memt             00040e  __mnext            00041e
+__msize            000422  __pool             000406  _error             000426
+_exit              0e064e  _grabPic           0e039e  _initHW            0e0024
+_initI2C           0e0304  _initPins          0e0066  _main              0e0320
+_myFifo            000400  _rxChar            000427  _strlen            0e057e
+dummy_int          0e0650  start              0e05aa  
+
+##########################################
+# (4) GLOBAL EQU SYMBOL INFORMATION      #
+##########################################
+__SB__           00000400  
+
+##########################################
+# (5) GLOBAL EQU BIT-SYMBOL INFORMATION  #
+##########################################
+
+##########################################
+# (6) LOCAL LABEL INFORMATION            #
+##########################################
+@ ncrt0 ( D:\ENGINEERING\HEW Projects\Camera\CameraTest\Debug_M16C_R8C_Simulator\ncrt0.r30 )
+@ h-ware ( D:\ENGINEERING\HEW Projects\Camera\CameraTest\Debug_M16C_R8C_Simulator\h-ware.r30 )
+@ iic ( D:\ENGINEERING\HEW Projects\Camera\CameraTest\Debug_M16C_R8C_Simulator\iic.r30 )
+@ main ( D:\ENGINEERING\HEW Projects\Camera\CameraTest\Debug_M16C_R8C_Simulator\main.r30 )
+@ serial ( D:\ENGINEERING\HEW Projects\Camera\CameraTest\Debug_M16C_R8C_Simulator\serial.r30 )
+@ mdata ( c:\program files\renesas\hew\tools\renesas\nc30wa\v545r01\lib30\nc30lib.lib )
+@ strlen ( c:\program files\renesas\hew\tools\renesas\nc30wa\v545r01\lib30\nc30lib.lib )
+
+##########################################
+# (7) LOCAL EQU SYMBOL INFORMATION       #
+##########################################
+@ ncrt0 ( D:\ENGINEERING\HEW Projects\Camera\CameraTest\Debug_M16C_R8C_Simulator\ncrt0.r30 )
+@ h-ware ( D:\ENGINEERING\HEW Projects\Camera\CameraTest\Debug_M16C_R8C_Simulator\h-ware.r30 )
+@ iic ( D:\ENGINEERING\HEW Projects\Camera\CameraTest\Debug_M16C_R8C_Simulator\iic.r30 )
+@ main ( D:\ENGINEERING\HEW Projects\Camera\CameraTest\Debug_M16C_R8C_Simulator\main.r30 )
+@ serial ( D:\ENGINEERING\HEW Projects\Camera\CameraTest\Debug_M16C_R8C_Simulator\serial.r30 )
+@ mdata ( c:\program files\renesas\hew\tools\renesas\nc30wa\v545r01\lib30\nc30lib.lib )
+@ strlen ( c:\program files\renesas\hew\tools\renesas\nc30wa\v545r01\lib30\nc30lib.lib )
+
+##########################################
+# (8) LOCAL EQU BIT-SYMBOL INFORMATION   #
+##########################################
+@ ncrt0 ( D:\ENGINEERING\HEW Projects\Camera\CameraTest\Debug_M16C_R8C_Simulator\ncrt0.r30 )
+@ h-ware ( D:\ENGINEERING\HEW Projects\Camera\CameraTest\Debug_M16C_R8C_Simulator\h-ware.r30 )
+@ iic ( D:\ENGINEERING\HEW Projects\Camera\CameraTest\Debug_M16C_R8C_Simulator\iic.r30 )
+@ main ( D:\ENGINEERING\HEW Projects\Camera\CameraTest\Debug_M16C_R8C_Simulator\main.r30 )
+@ serial ( D:\ENGINEERING\HEW Projects\Camera\CameraTest\Debug_M16C_R8C_Simulator\serial.r30 )
+@ mdata ( c:\program files\renesas\hew\tools\renesas\nc30wa\v545r01\lib30\nc30lib.lib )
+@ strlen ( c:\program files\renesas\hew\tools\renesas\nc30wa\v545r01\lib30\nc30lib.lib )
+
+*** Mapping List ***
+
+SECTION                            START      END         SIZE   ALIGN
+
+data_SE
+                                  00000400  00000400         0   1
+bss_SE
+                                  00000400  00000400         0   2
+data_SO
+                                  00000400  00000400         0   1
+bss_SO
+                                  00000400  00000400         0   1
+data_NE
+                                  00000400  00000415        16   2
+bss_NE
+                                  00000416  00000425        10   2
+data_NO
+                                  00000426  00000426         0   1
+bss_NO
+                                  00000426  00000427         2   1
+istack
+                                  00000428  00000727       300   2
+stack
+                                  00000728  00000a27       300   2
+heap
+                                  00000a28  00000d27       300   1
+rom_FE
+                                  000e0000  000e0007         8   1
+rom_FO
+                                  000e0008  000e000c         5   1
+data_SEI
+                                  000e000e  000e000e         0   2
+data_SOI
+                                  000e000e  000e000e         0   1
+data_NEI
+                                  000e000e  000e0023        16   2
+data_NOI
+                                  000e0024  000e0024         0   1
+program
+                                  000e0024  000e05a8       585   2
+interrupt
+                                  000e05aa  000e0650        a7   2
+program_S
+                                  000e0652  000e0652         0   2
+vector
+                                  000ffd00  000ffd00         0   1
+fvector
+                                  000fffdc  000fffff        24   1
+
+*** Symbol List ***
+
+SECTION=
+FILE=                               START        END    SIZE
+  SYMBOL                            ADDR        SIZE    INFO      COUNTS  OPT
+
+SECTION=data_SE
+FILE=ncrt0
+                                  00000400  00000400         0
+  __SB__
+                                  00000400         0   none ,g         0
+
+SECTION=data_NE
+FILE=D:/ENGINEERING/HEW Projects/Camera/CameraTest/h-ware
+                                  00000400  00000405         6
+  _myFifo
+                                  00000400         6   data ,g         0
+
+FILE=mdata
+                                  00000406  00000415        10
+  __memt
+                                  0000040e         0   none ,g         0
+  __pool
+                                  00000406         0   none ,g         0
+
+SECTION=bss_NE
+FILE=D:/ENGINEERING/HEW Projects/Camera/CameraTest/h-ware
+                                  00000416  0000041d         8
+  _RxBuffer
+                                  00000416         8   data ,g         0
+
+FILE=mdata
+                                  0000041e  00000425         8
+  __mnext
+                                  0000041e         0   none ,g         0
+  __msize
+                                  00000422         0   none ,g         0
+
+SECTION=data_NO
+FILE=ncrt0
+                                  00000426  00000426         0
+  _error
+                                  00000426         1   data ,g         0
+
+SECTION=bss_NO
+FILE=D:/ENGINEERING/HEW Projects/Camera/CameraTest/main
+                                  00000427  00000427         1
+  _rxChar
+                                  00000427         1   data ,g         0
+
+SECTION=rom_FE
+FILE=D:/ENGINEERING/HEW Projects/Camera/CameraTest/h-ware
+                                  000e0000  000e0007         8
+  _BaudRates
+                                  000e0000         8   data ,g         0
+
+SECTION=program
+FILE=D:/ENGINEERING/HEW Projects/Camera/CameraTest/h-ware
+                                  000e0024  000e0129       106
+  _initHW
+                                  000e0024        41   func ,g         0
+  _initPins
+                                  000e0066        15   func ,g         0
+  $initUART2
+                                  000e007a        38   func ,g         0
+  $UART2putc
+                                  000e00b2        15   func ,g         0
+  $UART2puts
+                                  000e00c8        2f   func ,g         0
+  _UART2Rx_IntHandler
+                                  000e00f6        34   func ,g         0
+
+FILE=D:/ENGINEERING/HEW Projects/Camera/CameraTest/iic
+                                  000e012a  000e031f       1f6
+  _I2C_enable_rx
+                                  000e012a        15   func ,g         0
+  $I2C_byte_read
+                                  000e0140        5d   func ,g         0
+  $I2C_byte_write
+                                  000e019c        53   func ,g         0
+  $I2C_send_data
+                                  000e01f0        3d   func ,g         0
+  _I2C_start
+                                  000e022c        47   func ,g         0
+  _I2C_restart
+                                  000e0274        48   func ,g         0
+  _I2C_stop
+                                  000e02bc        48   func ,g         0
+
+FILE=D:/ENGINEERING/HEW Projects/Camera/CameraTest/main
+                                  000e0320  000e03fe        df
+  _main
+                                  000e0320        7d   func ,g         0
+
+FILE=D:/ENGINEERING/HEW Projects/Camera/CameraTest/serial
+                                  000e0400  000e057d       17e
+  $putfifo
+                                  000e0400        72   func ,g         0
+  $getfifo
+                                  000e0472        41   func ,g         0
+  $peekfifo
+                                  000e04b4        17   func ,g         0
+  $DataInFifo
+                                  000e04ca        54   func ,g         0
+  $RoomInFifo
+                                  000e051e        60   func ,g         0
+
+FILE=strlen
+                                  000e057e  000e05a8        2b
+  _strlen
+                                  000e057e        2b   func ,g         0
+
+SECTION=interrupt
+FILE=ncrt0
+                                  000e05aa  000e0650        a7
+  $exit
+                                  000e064e         0   none ,g         0
+  _exit
+                                  000e064e         0   none ,g         0
+  dummy_int
+                                  000e0650         0   none ,g         0
+

@@ -1,0 +1,33 @@
+[HIMDBVersion]
+2.0
+[DATABASE_VERSION]
+"1.2" 
+[CURRENT_PROJECT]
+"CameraTest" 
+[GENERAL_DATA]
+[BREAKPOINTS]
+[OPEN_WORKSPACE_FILES]
+"D:\ENGINEERING\HEW Projects\Camera\CameraTest\h-ware.c" 
+"D:\ENGINEERING\HEW Projects\Camera\CameraTest\iic.c" 
+"D:\ENGINEERING\HEW Projects\Camera\CameraTest\iic.h" 
+"D:\ENGINEERING\HEW Projects\Camera\CameraTest\inc.h" 
+"D:\ENGINEERING\HEW Projects\Camera\CameraTest\main.c" 
+"D:\ENGINEERING\HEW Projects\Camera\CameraTest\ncrt0.a30" 
+"D:\ENGINEERING\HEW Projects\Camera\CameraTest\sect30.inc" 
+"D:\ENGINEERING\HEW Projects\Camera\CameraTest\serial.c" 
+"D:\ENGINEERING\HEW Projects\Camera\CameraTest\sfr62p.h" 
+"D:\ENGINEERING\HEW Projects\Camera\CameraTest\timer.c" 
+[WORKSPACE_FILE_STATES]
+"D:\ENGINEERING\HEW Projects\Camera\CameraTest\h-ware.c" 0 0 1371 734 0 1 
+"D:\ENGINEERING\HEW Projects\Camera\CameraTest\iic.c" 0 0 1371 734 0 3 
+"D:\ENGINEERING\HEW Projects\Camera\CameraTest\iic.h" 75 75 850 471 0 4 
+"D:\ENGINEERING\HEW Projects\Camera\CameraTest\inc.h" 0 0 1390 734 0 7 
+"D:\ENGINEERING\HEW Projects\Camera\CameraTest\main.c" -8 -30 1390 734 1 2 
+"D:\ENGINEERING\HEW Projects\Camera\CameraTest\ncrt0.a30" 150 150 1147 471 0 6 
+"D:\ENGINEERING\HEW Projects\Camera\CameraTest\sect30.inc" 75 75 1179 471 0 0 
+"D:\ENGINEERING\HEW Projects\Camera\CameraTest\serial.c" 0 0 1371 734 0 5 
+"D:\ENGINEERING\HEW Projects\Camera\CameraTest\sfr62p.h" 25 25 1149 471 0 9 
+"D:\ENGINEERING\HEW Projects\Camera\CameraTest\timer.c" 0 0 1390 734 0 8 
+[LOADED_PROJECTS]
+"CameraTest" 
+[END]

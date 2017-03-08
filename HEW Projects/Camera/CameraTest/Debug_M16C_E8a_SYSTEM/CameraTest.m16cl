@@ -1,0 +1,11 @@
+-L "nc30lib"
+-G
+-MS
+-O "D:\ENGINEERING\HEW Projects\Camera\CameraTest\Debug_M16C_E8a_SYSTEM\CameraTest.x30"
+"D:\ENGINEERING\HEW Projects\Camera\CameraTest\Debug_M16C_E8a_SYSTEM\ncrt0.r30"
+"D:\ENGINEERING\HEW Projects\Camera\CameraTest\Debug_M16C_E8a_SYSTEM\adc.r30"
+"D:\ENGINEERING\HEW Projects\Camera\CameraTest\Debug_M16C_E8a_SYSTEM\h-ware.r30"
+"D:\ENGINEERING\HEW Projects\Camera\CameraTest\Debug_M16C_E8a_SYSTEM\iic.r30"
+"D:\ENGINEERING\HEW Projects\Camera\CameraTest\Debug_M16C_E8a_SYSTEM\main.r30"
+"D:\ENGINEERING\HEW Projects\Camera\CameraTest\Debug_M16C_E8a_SYSTEM\serial.r30"
+"D:\ENGINEERING\HEW Projects\Camera\CameraTest\Debug_M16C_E8a_SYSTEM\timer.r30"

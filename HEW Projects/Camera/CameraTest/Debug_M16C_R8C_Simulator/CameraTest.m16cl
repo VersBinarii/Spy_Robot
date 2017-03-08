@@ -1,0 +1,9 @@
+-L "nc30lib"
+-G
+-MS
+-O "D:\ENGINEERING\HEW Projects\Camera\CameraTest\Debug_M16C_R8C_Simulator\CameraTest.x30"
+"D:\ENGINEERING\HEW Projects\Camera\CameraTest\Debug_M16C_R8C_Simulator\ncrt0.r30"
+"D:\ENGINEERING\HEW Projects\Camera\CameraTest\Debug_M16C_R8C_Simulator\h-ware.r30"
+"D:\ENGINEERING\HEW Projects\Camera\CameraTest\Debug_M16C_R8C_Simulator\iic.r30"
+"D:\ENGINEERING\HEW Projects\Camera\CameraTest\Debug_M16C_R8C_Simulator\main.r30"
+"D:\ENGINEERING\HEW Projects\Camera\CameraTest\Debug_M16C_R8C_Simulator\serial.r30"
